@@ -1,3 +1,11 @@
+gg.setVisible(true)
+while true do
+    if gg.isVisible() then
+        gg.setVisible(false)
+        Main()
+    end
+end
+
 function Main()
     menu = gg.choice({"Kick All","Infinite Game","Unlock Inflatable Armor"}, nil, "pogU")
     if menu == 1 then
@@ -29,6 +37,7 @@ gg.editAll("-99", gg.TYPE_DOUBLE)
 gg.clearResults()
 gg.clearResults()
 end
+
 
 
 function Armor1()
