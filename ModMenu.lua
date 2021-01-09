@@ -1,5 +1,5 @@
 function Main()
-    menu = gg.choice({"Kick All","Infinite Game","Unlock All Armor"}, nil, "pogU")
+    menu = gg.choice({"Kick All","Infinite Game","Unlock Inflatable Armor"}, nil, "pogU")
     if menu == 1 then
         KickAll1()
     end
@@ -33,7 +33,7 @@ end
 
 function Armor1()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber(';armor',gg.TYPE_WORD)
+gg.searchNumber(';inflatable',gg.TYPE_WORD)
 gg.getResults(99999)
 gg.editAll(';0',gg.TYPE_WORD)
 gg.toast('5 seconds goto armor section')
@@ -47,7 +47,7 @@ gg.sleep(1000)
 gg.toast('1 seconds  goto armor section')
 gg.sleep(1000)
 gg.toast('TIME FINISHED!!')
-gg.editAll(';armor',gg.TYPE_WORD)
+gg.editAll(';inflatable',gg.TYPE_WORD)
 gg.toast('now double click on the armor and see what it is and boom!')
 gg.clearResults()
 gg.clearResults()
