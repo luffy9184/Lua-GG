@@ -1,2 +1,2 @@
 # Lua-GG
-Short Mod Menu Made In GameGuardian LUA.
+Short PG3D Mod Menu Made In GameGuardian LUA.
