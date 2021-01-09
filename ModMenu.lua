@@ -48,7 +48,7 @@ gg.toast('1 seconds  goto armor section')
 gg.sleep(1000)
 gg.toast('TIME FINISHED!!')
 gg.editAll(';inflatable',gg.TYPE_WORD)
-gg.toast('now double click on the armor and see what it is and boom!')
+gg.toast('now double click on the armor and boom!')
 gg.clearResults()
 gg.clearResults()
 end
