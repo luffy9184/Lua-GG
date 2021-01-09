@@ -1,11 +1,3 @@
-gg.setVisible(true)
-while true do
-    if gg.isVisible() then
-        gg.setVisible(false)
-        Main()
-    end
-end
-
 function Main()
     menu = gg.choice({"Kick All","Infinite Game","Unlock Inflatable Armor"}, nil, "pogU")
     if menu == 1 then
@@ -40,6 +32,7 @@ end
 
 
 
+
 function Armor1()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber(';inflatable',gg.TYPE_WORD)
@@ -60,4 +53,13 @@ gg.editAll(';inflatable',gg.TYPE_WORD)
 gg.toast('now double click on the armor and boom!')
 gg.clearResults()
 gg.clearResults()
+end
+
+
+gg.setVisible(true)
+while true do
+    if gg.isVisible() then
+        gg.setVisible(false)
+        Main()
+    end
 end
