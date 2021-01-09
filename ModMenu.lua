@@ -13,7 +13,7 @@ end
 
 function KickAll1()
 gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1000", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.searchNumber("1000", gg.TYPE_DOUBLE)
 gg.getResults(9999)
 gg.editAll("15", gg.TYPE_DOUBLE)
 gg.toast('(¬‿¬)❤aaa.❤(¬‿¬)')
